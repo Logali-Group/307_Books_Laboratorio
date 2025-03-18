@@ -27,6 +27,10 @@ entity Categories : cuid {
     category : String(150);
 };
 
+entity Years: cuid {
+    year: String(4);
+};
+
 entity Status : CodeList {
     key code        : String enum {
             Available       = 'In Stock';
